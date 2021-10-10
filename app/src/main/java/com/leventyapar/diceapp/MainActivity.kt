@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
 
         dice1.setImageResource(R.drawable.dice_1)
-        dice2.setImageResource(R.drawable.dice_2)
+        dice2.setImageResource(R.drawable.dice_1)
 
         rollButton.setOnClickListener{
             var random1 = (1..6).random()
